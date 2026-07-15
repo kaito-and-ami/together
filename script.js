@@ -563,8 +563,8 @@ const seatTables = {
   M: {
     group: "新婦大学友人",
     guests: [
-      { name: "秋元 綾加" },
-      { name: "秋元 雄飛" },
+      { name: "松元 綾加" },
+      { name: "松元 雄飛" },
       { name: "東 伸樹" },
       { name: "宮崎 良一" },
       { name: "今津 夏希" },
