@@ -415,61 +415,61 @@ const seatTables = {
   },
 
   D: {
-    group: "新郎親族",
-    guests: [
-      {
-        role: "大伯母",
-        name: "福田 千代子"
-      },
-      {
-        role: "祖父",
-        name: "岡田 正光"
-      },
-      {
-        role: "伯母",
-        name: "岡田 美保子"
-      },
-      {
-        role: "大伯父",
-        name: "岡田 正美"
-      }
-    ]
-  },
+  group: "新郎親族",
+  guests: [
+    {
+      role: "大伯母",
+      name: "福田 千代子"
+    },
+    {
+      role: "祖父",
+      name: "岡田 正光"
+    },
+    {
+      role: "伯母",
+      name: "岡田 美保子"
+    },
+    {
+      role: "大伯父",
+      name: "岡田 正美"
+    }
+  ]
+},
 
   E: {
-    group: "新郎親族",
-    layout: "family-e",
-    guests: [
-      {
-        role: "伯母",
-        name: "髙橋 美也子"
-      },
-      {
-        role: "従甥",
-        name: "髙橋 陽翔"
-      },
-      {
-        role: "従姉",
-        name: "髙橋 恵美"
-      },
-      {
-        role: "母",
-        name: "野地 涼子"
-      },
-      {
-        role: "父",
-        name: "野地 孝一"
-      },
-      {
-        role: "弟",
-        name: "野地 祥太"
-      },
-      {
-        role: "従妹",
-        name: "髙橋 香織"
-      }
-    ]
-  },
+  group: "新郎親族",
+  layout: "family-e",
+  guests: [
+    {
+      role: "伯母",
+      name: "髙橋 美也子"
+    },
+    {
+      role: "従甥",
+      name: "髙橋 陽翔"
+    },
+    {
+      role: "従姉",
+      name: "髙橋 恵美"
+    },
+    {
+      role: "母",
+      name: "野地 涼子"
+    },
+    {
+      role: "父",
+      name: "野地 孝一"
+    },
+    {
+      role: "弟",
+      name: "野地 祥太"
+    },
+    {
+      role: "従妹",
+      name: "髙橋 香織"
+    }
+  ]
+},
 
   F: {
     group: "職場",
@@ -577,78 +577,78 @@ const seatTables = {
   },
 
   N: {
-    group: "新婦親族",
-    layout: "family-n",
-    guests: [
-      {
-        role: "従弟",
-        name: "佐久間 元美"
-      },
-      {
-        role: "叔父",
-        name: "佐久間 賢"
-      },
-      {
-        role: "叔母",
-        name: "佐久間 美智子"
-      },
-      {
-        role: "祖母",
-        name: "坂本 みさこ"
-      },
-      {
-        role: "祖父",
-        name: "坂本 武雄"
-      },
-      {
-        role: "親戚",
-        name: "佐久間 亮"
-      },
-      {
-        role: "親戚",
-        name: "佐久間 せいこ"
-      },
-      {
-        role: "従弟",
-        name: "佐久間 元春"
-      }
-    ]
-  },
+  group: "新婦親族",
+  layout: "family-n",
+  guests: [
+    {
+      role: "従弟",
+      name: "佐久間 元美"
+    },
+    {
+      role: "叔父",
+      name: "佐久間 賢"
+    },
+    {
+      role: "叔母",
+      name: "佐久間 美智子"
+    },
+    {
+      role: "祖母",
+      name: "坂本 みさこ"
+    },
+    {
+      role: "祖父",
+      name: "坂本 武雄"
+    },
+    {
+      role: "親戚",
+      name: "佐久間 亮"
+    },
+    {
+      role: "親戚",
+      name: "佐久間 せいこ"
+    },
+    {
+      role: "従弟",
+      name: "佐久間 元春"
+    }
+  ]
+},
 
   O: {
-    group: "新婦親族",
-    layout: "family-o",
-    guests: [
-      {
-        role: "伯父",
-        name: "栗木 誠"
-      },
-      {
-        role: "伯母",
-        name: "栗木 小百合"
-      },
-      {
-        role: "妹",
-        name: "宮地 杏果"
-      },
-      {
-        role: "父",
-        name: "宮地 和彦"
-      },
-      {
-        role: "母",
-        name: "宮地 多美恵"
-      },
-      {
-        role: "叔母",
-        name: "宮地 知枝"
-      },
-      {
-        role: "叔父",
-        name: "宮地 武士"
-      }
-    ]
-  }
+  group: "新婦親族",
+  layout: "family-o",
+  guests: [
+    {
+      role: "伯父",
+      name: "栗木 誠"
+    },
+    {
+      role: "伯母",
+      name: "栗木 小百合"
+    },
+    {
+      role: "妹",
+      name: "宮地 杏果"
+    },
+    {
+      role: "父",
+      name: "宮地 和彦"
+    },
+    {
+      role: "母",
+      name: "宮地 多美恵"
+    },
+    {
+      role: "叔母",
+      name: "宮地 知枝"
+    },
+    {
+      role: "叔父",
+      name: "宮地 武士"
+    }
+  ]
+},
 };
 
 
