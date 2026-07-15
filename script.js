@@ -414,27 +414,27 @@ const seatTables = {
     ]
   },
 
-  D: {
-    group: "新郎親族",
-    guests: [
-      {
-        role: "大伯母",
-        name: "福田 千代子"
-      },
-      {
-        role: "祖父",
-        name: "岡田 正光"
-      },
-      {
-        role: "伯母",
-        name: "岡田 美保子"
-      },
-      {
-        role: "大伯父",
-        name: "岡田 正美"
-      }
-    ]
-  },
+    D: {
+  group: "新郎親族",
+  guests: [
+    {
+      role: "祖父",
+      name: "岡田 正光"
+    },
+    {
+      role: "大伯父",
+      name: "岡田 正美"
+    },
+    {
+      role: "大伯母",
+      name: "福田 千代子"
+    },
+    {
+      role: "伯母",
+      name: "岡田 美保子"
+    }
+  ]
+},
 
   E: {
     group: "新郎親族",
