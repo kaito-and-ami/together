@@ -414,62 +414,62 @@ const seatTables = {
     ]
   },
 
-    D: {
-  group: "新郎親族",
-  guests: [
-    {
-      role: "祖父",
-      name: "岡田 正光"
-    },
-    {
-      role: "大伯父",
-      name: "岡田 正美"
-    },
-    {
-      role: "大伯母",
-      name: "福田 千代子"
-    },
-    {
-      role: "伯母",
-      name: "岡田 美保子"
-    }
-  ]
-},
+  D: {
+    group: "新郎親族",
+    guests: [
+      {
+        role: "大伯母",
+        name: "福田 千代子"
+      },
+      {
+        role: "祖父",
+        name: "岡田 正光"
+      },
+      {
+        role: "伯母",
+        name: "岡田 美保子"
+      },
+      {
+        role: "大伯父",
+        name: "岡田 正美"
+      }
+    ]
+  },
 
   E: {
-  group: "新郎親族",
-  layout: "family-e",
-  guests: [
-    {
-      role: "父",
-      name: "野地 孝一"
-    },
-    {
-      role: "母",
-      name: "野地 涼子"
-    },
-    {
-      role: "弟",
-      name: "野地 祥太"
-    },
-    {
-      role: "伯母",
-      name: "髙橋 美也子"
-    },
-    {
-      role: "従姉",
-      name: "髙橋 恵美"
-    },
-    {
-      role: "従妹",
-      name: "髙橋 香織"
-    },
-    {
-      role: "従甥",
-      name: "髙橋 陽翔"
-    }
-  ]
-},
+    group: "新郎親族",
+    layout: "family-e",
+    guests: [
+      {
+        role: "伯母",
+        name: "髙橋 美也子"
+      },
+      {
+        role: "従甥",
+        name: "髙橋 陽翔"
+      },
+      {
+        role: "従姉",
+        name: "髙橋 恵美"
+      },
+      {
+        role: "母",
+        name: "野地 涼子"
+      },
+      {
+        role: "父",
+        name: "野地 孝一"
+      },
+      {
+        role: "弟",
+        name: "野地 祥太"
+      },
+      {
+        role: "従妹",
+        name: "髙橋 香織"
+      }
+    ]
+  },
 
   F: {
     group: "職場",
@@ -577,77 +577,77 @@ const seatTables = {
   },
 
   N: {
-  group: "新婦親族",
-  layout: "family-n",
-  guests: [
-    {
-      role: "祖父",
-      name: "坂本 武雄"
-    },
-    {
-      role: "祖母",
-      name: "坂本 みさこ"
-    },
-    {
-      role: "叔父",
-      name: "佐久間 賢"
-    },
-    {
-      role: "叔母",
-      name: "佐久間 美智子"
-    },
-    {
-      role: "従弟",
-      name: "佐久間 元春"
-    },
-    {
-      role: "従弟",
-      name: "佐久間 元美"
-    },
-    {
-      role: "親戚",
-      name: "佐久間 亮"
-    },
-    {
-      role: "親戚",
-      name: "佐久間 せいこ"
-    }
-  ]
-},
+    group: "新婦親族",
+    layout: "family-n",
+    guests: [
+      {
+        role: "従弟",
+        name: "佐久間 元美"
+      },
+      {
+        role: "叔父",
+        name: "佐久間 賢"
+      },
+      {
+        role: "叔母",
+        name: "佐久間 美智子"
+      },
+      {
+        role: "祖母",
+        name: "坂本 みさこ"
+      },
+      {
+        role: "祖父",
+        name: "坂本 武雄"
+      },
+      {
+        role: "親戚",
+        name: "佐久間 亮"
+      },
+      {
+        role: "親戚",
+        name: "佐久間 せいこ"
+      },
+      {
+        role: "従弟",
+        name: "佐久間 元春"
+      }
+    ]
+  },
 
   O: {
-  group: "新婦親族",
-  layout: "family-o",
-  guests: [
-    {
-      role: "父",
-      name: "宮地 和彦"
-    },
-    {
-      role: "母",
-      name: "宮地 多美恵"
-    },
-    {
-      role: "妹",
-      name: "宮地 杏果"
-    },
-    {
-      role: "伯父",
-      name: "栗木 誠"
-    },
-    {
-      role: "伯母",
-      name: "栗木 小百合"
-    },
-    {
-      role: "叔父",
-      name: "宮地 武士"
-    },
-        {
-      role: "叔母",
-      name: "宮地 知枝"
-    }
-  ]
+    group: "新婦親族",
+    layout: "family-o",
+    guests: [
+      {
+        role: "伯父",
+        name: "栗木 誠"
+      },
+      {
+        role: "伯母",
+        name: "栗木 小百合"
+      },
+      {
+        role: "妹",
+        name: "宮地 杏果"
+      },
+      {
+        role: "父",
+        name: "宮地 和彦"
+      },
+      {
+        role: "母",
+        name: "宮地 多美恵"
+      },
+      {
+        role: "叔母",
+        name: "宮地 知枝"
+      },
+      {
+        role: "叔父",
+        name: "宮地 武士"
+      }
+    ]
   }
 };
 
@@ -1205,7 +1205,45 @@ const allTablesClose =
 const allTablesGrid =
   document.getElementById("all-tables-grid");
 
+const allTablesGuestOrder = {
+  D: [
+    "岡田 正光",
+    "岡田 正美",
+    "福田 千代子",
+    "岡田 美保子"
+  ],
 
+  N: [
+    "坂本 武雄",
+    "坂本 みさこ",
+    "佐久間 賢",
+    "佐久間 美智子",
+    "佐久間 元春",
+    "佐久間 元美",
+    "佐久間 亮",
+    "佐久間 せいこ"
+  ],
+
+  E: [
+    "野地 孝一",
+    "野地 涼子",
+    "野地 祥太",
+    "髙橋 美也子",
+    "髙橋 恵美",
+    "髙橋 香織",
+    "髙橋 陽翔"
+  ],
+
+  O: [
+    "宮地 和彦",
+    "宮地 多美恵",
+    "宮地 杏果",
+    "栗木 誠",
+    "栗木 小百合",
+    "宮地 武士",
+    "宮地 知枝"
+  ]
+};
 function createAllTables() {
 
   allTablesGrid.innerHTML = "";
@@ -1230,8 +1268,17 @@ function createAllTables() {
       <h4>${table.group}</h4>
       <ul>
     `;
-
-    table.guests.forEach((guest) => {
+const displayGuests =
+  allTablesGuestOrder[letter]
+    ? allTablesGuestOrder[letter]
+        .map((name) =>
+          table.guests.find(
+            (guest) => guest.name === name
+          )
+        )
+        .filter(Boolean)
+    : table.guests;
+   displayGuests.forEach((guest) => {
 
       html += `
         <li>
