@@ -865,19 +865,19 @@ const specialSeatLayouts = {
   /*
     Oテーブル
 
-    叔父             伯父
+    叔父
 
     叔母             伯母
 
-    妹
+    妹               伯父
 
        母          父
   */
 
   "family-o": [
     {
-      left: 80,
-      top: 15
+      left: 78,
+      top: 70
     },
     {
       left: 87,
