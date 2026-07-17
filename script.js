@@ -869,7 +869,7 @@ const specialSeatLayouts = {
 
     叔母             伯母
 
-                     妹
+    妹
 
        母          父
   */
@@ -884,7 +884,7 @@ const specialSeatLayouts = {
       top: 42
     },
     {
-      left: 78,
+      left: 22,
       top: 70
     },
     {
