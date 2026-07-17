@@ -1238,6 +1238,14 @@ body.modal-open {
   font-style: normal;
   line-height: 1;
   letter-spacing: 0;
+  flex: 0 0 auto;
+  width: 28px;
+  height: 28px;
+  fill: none;
+  stroke: #b5ada2;
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 .drink-category ul {
