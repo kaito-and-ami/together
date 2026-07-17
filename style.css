@@ -1222,10 +1222,22 @@ body.modal-open {
 }
 
 .drink-category-en {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
   font-family: "Playfair Display", serif;
   font-size: 20px;
   font-style: italic;
   letter-spacing: 0.18em;
+}
+
+.drink-category-icon {
+  font-family: "Apple Color Emoji", "Segoe UI Emoji", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 0;
 }
 
 .drink-category ul {
@@ -1237,18 +1249,6 @@ body.modal-open {
   font-size: 15px;
   line-height: 2.25;
   letter-spacing: 0.08em;
-}
-
-.drink-menu-footer {
-  margin-top: 100px;
-  text-align: center;
-}
-
-.drink-menu-footer p {
-  font-family: "Playfair Display", serif;
-  font-size: 25px;
-  font-style: italic;
-  letter-spacing: 0.12em;
 }
 
 @media (min-width: 800px) {
