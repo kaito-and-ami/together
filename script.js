@@ -465,7 +465,7 @@ const seatTables = {
       name: "野地 祥太"
     },
     {
-      role: "従妹",
+      role: "従姉",
       name: "髙橋 香織"
     }
   ]
@@ -736,7 +736,7 @@ const specialSeatLayouts = {
 
              伯母
 
-    従妹             従甥
+    従姉             従甥
 
     弟               従姉
 
