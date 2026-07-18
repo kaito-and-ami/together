@@ -543,7 +543,7 @@ const seatTables = {
       { name: "斎藤 未来" },
       { name: "袴田 紗生" },
       { name: "町野 純菜" },
-      { name: "蓑原 瞳" }
+      { name: "簑原 瞳" }
     ]
   },
 
