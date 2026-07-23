@@ -911,6 +911,32 @@ const specialSeatLayouts = {
    座席要素を作る
 ========================= */
 
+const guestsWithoutHonorific = new Set([
+  "野地 孝一",
+  "野地 涼子",
+  "野地 祥太",
+  "宮地 和彦",
+  "宮地 多美恵",
+  "宮地 杏果"
+]);
+
+const childGuests = new Set([
+  "塚本 結陽",
+  "髙橋 陽翔"
+]);
+
+function formatGuestName(name) {
+  if (guestsWithoutHonorific.has(name)) {
+    return name;
+  }
+
+  if (childGuests.has(name)) {
+    return `${name} くん`;
+  }
+
+  return `${name} 様`;
+}
+
 function createSeatPerson(
   guest,
   coordinates
@@ -949,7 +975,7 @@ function createSeatPerson(
     "seat-person-name";
 
   name.textContent =
-    guest.name;
+    formatGuestName(guest.name);
 
   person.appendChild(name);
 
@@ -1283,7 +1309,7 @@ const displayGuests =
       html += `
         <li>
           ${guest.role ? `${guest.role}　` : ""}
-          ${guest.name}
+          ${formatGuestName(guest.name)}
         </li>
       `;
 
