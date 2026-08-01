@@ -1233,11 +1233,6 @@ body.modal-open {
 }
 
 .drink-category-icon {
-  font-family: "Apple Color Emoji", "Segoe UI Emoji", sans-serif;
-  font-size: 22px;
-  font-style: normal;
-  line-height: 1;
-  letter-spacing: 0;
   flex: 0 0 auto;
   width: 28px;
   height: 28px;
@@ -1835,21 +1830,22 @@ cursor:pointer;
 
 .seat-side-label {
   position: absolute;
-  top: 47%;
+  top: 0;
   color: #a0a0a0;
   font-family: "Playfair Display", serif;
   font-size: 10px;
   letter-spacing: 0.14em;
+  transform: translateX(-50%);
 }
 
 
 .seat-side-groom {
-  left: 13%;
+  left: 25%;
 }
 
 
 .seat-side-bride {
-  right: 13%;
+  left: 75%;
 }
 
 
